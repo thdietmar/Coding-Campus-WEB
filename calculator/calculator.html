@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+    <table>
+        <tr>
+            <td colspan="4" id="display">0</td>
+        </tr>
+        <tr>
+            <td colspan="3"><button id="ac" onclick="pushButton(this);">AC</button></td>
+            <td><button value="÷" onclick="pushButton(this);">/</button></td>
+        </tr>
+        <tr>÷
+            <td><button onclick="pushButton(this);">7</button></td>
+            <td><button onclick="pushButton(this);">8</button></td>
+            <td><button onclick="pushButton(this);">9</button></td>
+            <td><button class="operator" onclick="pushButton(this);">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushButton(this);">4</button></td>
+            <td><button onclick="pushButton(this);">5</button></td>
+            <td><button onclick="pushButton(this);">6</button></td>
+            <td><button class="operator" onclick="pushButton(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="pushButton(this);">1</button></td>
+            <td><button onclick="pushButton(this);">2</button></td>
+            <td><button onclick="pushButton(this);">3</button></td>
+            <td><button class="operator" onclick="pushButton(this);">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="pushButton(this);">0</button></td>
+            <td><button onclick="pushButton(this);">,</button></td>
+            <td><button class="operator" onclick="pushButton(this);">=</button></td>
+        </tr>
+    </table>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>

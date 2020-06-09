@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+    background: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.nav-top > a {
+    display: block; 
+}
+
+.nav-top .blog-icon {
+    margin-top: 25px;
+}
+
+.navbar .profil-icon img { 
+    padding-bottom: 25px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+
+h1 {
+    
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+    height: 53px;
+    font-style: normal;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 45% auto; 
+    font-size: 18px; 
+   
+}
+
+
+.cont2 {
+    align-self: flex-end;
+    
+   
+}
+
+.cont3 {
+   margin-top: 20px;
+}
+
+.cont4 {
+    align-self: flex-end ;
+   
+   
+}
+
+.cont5 {
+    margin-top: 150px;
+   
+}
+
+.grid .underline {
+    text-decoration-line: underline;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 287px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+    background: #3574F3;
+    outline: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: rgb(18, 81, 207);
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translate3d(3px, 3px, 3px);
+}
+
+@media screen and (min-width: 736px) {
+
+    .wrapper {
+        margin-top: 50px;
+        margin-left: 106px; 
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 690px auto; 
+        font-size: 24px; 
+       
+    }
+
+    .cont5 {
+        justify-self: start;
+        margin-top: 170px;
+
+    }
+
+    h1 {
+    
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: bold;
+        height: 53px;
+        font-style: normal;
+    }
+
+    .cont3 {
+        margin-top: 20px;
+     }
+}
+

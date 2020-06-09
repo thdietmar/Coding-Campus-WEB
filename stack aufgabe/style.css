@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.insert {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 100px auto;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: rgb(235, 100, 100); 
+}
+
+.field-green {
+    background-color: rgb(110, 165, 110);   
+}
+
+#numberfield {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 100px;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
