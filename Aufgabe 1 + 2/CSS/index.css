@@ -1,0 +1,114 @@
+body {
+    font-family: Arial;
+    margin: 0; 
+}
+
+.wrapper {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+h3 {
+    color: rgb(37, 156, 156);
+}
+
+/*Navigation*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(133, 130, 130, 0.5);
+    height: 50px;
+}
+
+.navbar a {
+    margin-left: 70px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase ;
+}
+
+/*Main*/
+
+em {
+    font-size: 2em;
+}
+
+.unimportant em {
+    font-size: 1em;
+}
+
+.unimportant {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.image {
+    flex-grow: 1;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Liste*/
+
+.list {
+    width: 240px;
+    font-weight: bold;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.list .item2 {
+    list-style-type: lower-alpha;
+}
+
+.list .item3 {
+    list-style-type: circle;
+}
+
+/*Tabelle*/
+
+table {
+    height: 40%;
+    width: 80%;
+    margin-top: 100px;
+}
+
+thead th {
+    background-color: gray;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 230, 230);
+}
+
+tbody {
+    text-align: center;
+    background-color: rgb(194, 192, 192);
+}
+
+tfoot {
+    background-color: rgb(247, 131, 189);
+    font-size: 20px;
+}
+
