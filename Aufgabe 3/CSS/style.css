@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.wrapper h1 {
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.linke-spalte {
+    flex-grow: 1;
+    background-color: indianred;
+}
+
+.rechte-spalte {
+    flex-grow: 2;
+    background-color: lightskyblue;
+}
+
+/*Formular*/
+
+form {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.field {
+    padding: 8px;
+    font-size: 17px;
+}
+
+
+.birth {
+    margin-right: 20px;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.agb {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.button {
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+   
+}
+
+
+
+

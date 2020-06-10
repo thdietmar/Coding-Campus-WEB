@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrierung</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="linke-spalte">
+            <h1>hello</h1>
+        </div>
+        <div class="rechte-spalte">
+            <h1>world</h1>
+            <form action="welcome.html">
+                <div class="container">
+                    <input class="field" type="text" placeholder="Vorname" autofocus required>
+                    <input class="field" type="text" placeholder="Nachname" required>
+                </div>
+                <br>
+                <div class="container">
+                    <input class="field" type="email" placeholder="Email" required>
+                    <input class="field" type="password" placeholder="Passwort" required>
+                </div>
+                <br>
+                <br>
+                <label>Geburtsdatum</label>
+                <input class="birth" type="date" required>
+                <label for="gender_m">männlich</label>
+                <input type="radio" name="gender" value="m" id="gender_m" checked>
+                <label for="gender_f">weiblich</label>
+                <input type="radio" name="gender" value="f" id="gender_f">
+                <br>
+                <br>
+                <br>
+                <label class="agb">AGB gelesen</label>
+                <input class="checkbox" type="checkbox" required>
+                <button class="button" type="submit" onclick="register(this.form)">ANMELDEN</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
