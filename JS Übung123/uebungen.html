@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h2>Übung 1</h2>
+    <label for="button">Anzahl der Schuhe:</label>
+    <br>
+    <br>
+    <button type="button" onclick="anzahlSchuhe()">GO!</button>
+    <p id="result"></p>
+    <br>
+    <h2>Übung 2</h2>
+
+    <h4>Meine Einkaufsliste:</h4>
+    <p id="list"></p>
+    <br>
+    <form>
+        Zur Einkaufsliste hinzufügen: <input type="text" id="product" />
+        <button type="button" onclick="add()">+</button>
+    </form>
+    <br>
+    <br>
+    <h2>Übung 3</h2>
+    <h4>Rechnen mit substring() und indexOf():</h4>
+    <label>Addition eingeben:</label>
+    <input type="text" id="input">
+    <button type="button" onclick="run()">RUN</button>
+    <br>
+    <p>Operator steht an der Stelle: <span id="operator"></span></p>
+    <p>Zahl 1 = <span id="number1"></span></p>
+    <p>Zahl 2 = <span id="number2"></span></p>
+
+    <button type="button" onclick="calc()">Calculate</button>
+    <p id="result1"></p>
+
+    <script src="uebungen.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+   margin: 0; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    cursor: grab;
+    
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.image-container {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background-image: url(../IMAGES/zoo_front.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+    transition: all .2s;
+}
+
+.image-opacity {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.35);
+}
+
+
+
+.header:hover .image-container,
+.header:focus .image-container{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+
+.header ul {
+    list-style-type: none;
+}
+
+.top {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 999;
+    height: 100%;
+}
+
+.top-block {
+    display: flex;
+    justify-content: center;  
+    background-color: #1e2022;;
+}
+
+.top-block li {
+    padding: 10px 20px;
+}
+
+.top-block li a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #8d8282;
+    letter-spacing: .4px;
+    text-decoration: none;
+    transition: all .2s;  
+}
+
+.top-block li a:hover {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar ul { 
+    border-bottom: 1px solid white ;
+    list-style-type: none;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 520px;
+    align-items: center;
+   
+}
+  
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 520px;
+    align-items: center;
+}
+
+.navbar-right li{
+    justify-items: flex-end;
+}
+
+
+.navbar li a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    padding: 0 20px;
+}
+
+.navbar li a:hover {
+    color: rgb(180, 174, 174);
+    transition: all 0.2s;
+}
+
+
+.navbar img {
+    width: 65px;
+    height: 106px;
+    padding: 0 20px;
+    border: none;
+}
+
+.main {
+    height: 70%; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.willkommen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+
+h2 {
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.block { 
+    margin: 15px;
+    background-color: white;
+    width: 60px;
+    height: 5px;
+}
+
+.willkommen a:hover {
+        background-color: rgb(175, 117, 46);
+        border-radius: 0;
+        transition: all 0.2s;
+   
+}
+
+.willkommen a {  
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 65px;
+    color: white;
+    background-color: #ef7b0b;
+    border-radius: 5px;
+    transition: all .2s; 
+}
+
+.willkommen p {
+    font-size: 18px;
+    line-height: 60px;
+    margin: 5px 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-activ { 
+    margin: 5px;
+    align-content: center;
+    width: 300px;
+    height: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.button-inactiv {
+    margin: 5px;
+    align-content: center;
+    width: 300px;
+    height: 6px;
+    opacity: 0.4;
+    cursor: pointer;
+    margin-top: 30px;
+   
+}
+
+
+.news {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-top: 100px;
+    text-align: center;  
+}
+
+.block-green {
+    margin: 15px auto;
+    width: 60px;
+    height: 5px;
+    background-color: #049a50;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 25%;
+    margin: 15px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card:hover img,
+.card:focus img {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.hidden {
+    overflow: hidden;
+    height: 68%;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 50px;
+}
+
+.container a {
+    font-size: 19px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container a:hover {
+    color: #ef7b0b;
+    text-decoration: underline;
+}
+
+
+
+
+
